@@ -21,7 +21,7 @@ import com.apnacolor.services.BillingServiceImpl;
 
 @RestController
 @RequestMapping("/Billing")
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class BillingController {
 
 	@Autowired

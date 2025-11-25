@@ -22,11 +22,12 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/products")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class ProductController {
 
 	@Autowired
 	private ProductService productService;
+	
 	@Autowired
 	private ProductRepository productRepository;
 

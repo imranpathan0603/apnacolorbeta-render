@@ -10,7 +10,7 @@ import com.apnacolor.services.CartItemService;
 
 @RestController
 @RequestMapping("/api/cart")
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class CartController {
 
     @Autowired
